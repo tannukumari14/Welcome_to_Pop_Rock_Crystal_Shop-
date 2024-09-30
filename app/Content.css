@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .shop-now {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+    
+    .card {
+      width: 100%;
+    }
+  }
+  
