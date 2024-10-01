@@ -4,7 +4,7 @@ const Card=()=>{
         <>
         <div className="card">
             <h2>Nunna Siva Surya Manikanta</h2>
-            <img src="crystal-agate-phone-grip.jpg" alt="Crystal Agate Phone Grip" />
+            <img src="stone.png" alt="Crystal Agate Phone Grip" />
             <p>Crystal Agate Phone Grip - $18.99</p>
         </div>
         </>
