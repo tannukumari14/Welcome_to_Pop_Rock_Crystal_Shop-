@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+  }
+  
+  .product-detail-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .view-all-btn {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-side {
+    max-width: 600px;
+  }
+  
+  .best-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .price-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .new-price {
+    color: #ff5722;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .buy-now-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .right-side {
+    position: relative;
+  }
+  
+  .product-image-container {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .wave-background {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(to right, #007bff, #5b98ff);
+    clip-path: ellipse(50% 100% at 50% 100%);
+    z-index: -1;
+  }
+  
