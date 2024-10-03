@@ -8,7 +8,7 @@ const Header = () => {
         <img
           src="Frame.png" 
           alt="Pop Rock Crystal"
-          className="logo"
+          className="logo_header"
         />
         <span className="shop-name">Pop Rock Crystal</span>
       </div>

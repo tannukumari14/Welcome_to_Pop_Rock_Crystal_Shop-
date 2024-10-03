@@ -5,7 +5,7 @@ const ProductDetail = () => {
   return (
     <div className="product-detail-container">
       
-      <div className="header">
+      <div className="product-header">
         <button className="view-all-btn">View All</button>
       </div>
 

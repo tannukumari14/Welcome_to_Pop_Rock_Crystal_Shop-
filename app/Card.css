@@ -1,18 +1,17 @@
 .card {
   background-color: white;
+  width: 569px;
   border-radius: 15px;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .card img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 15px; /* Space between image and title */
+  margin-bottom: 15px;
 }
 
 .card h2 {
@@ -25,9 +24,10 @@
   color: #333;
 }
 
-/* Responsive: Full-width card on smaller screens */
 @media (max-width: 768px) {
   .card {
     width: 100%;
   }
 }
+
+
