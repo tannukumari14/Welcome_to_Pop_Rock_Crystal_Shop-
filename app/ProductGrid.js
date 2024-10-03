@@ -1,14 +1,19 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import './ProductGrid.css'; 
 
 const ProductGrid = () => {
   const products = [
-    { id: 1, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", imageUrl: "path_to_image" },
-    { id: 2, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", imageUrl: "path_to_image" },
-    
+    { id: 1, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", imageUrl: "stone.png" },
+    { id: 2, name: "CRYSTAL AGATE PHONE GRIP", price: "18.99$", imageUrl: "stone.png" },
+    { id: 3, name: "AMETHYST PHONE GRIP", price: "19.99$", imageUrl: "stone.png" },
+    { id: 4, name: "ROSE QUARTZ PHONE GRIP", price: "20.99$", imageUrl: "stone.png" },
+    { id: 5, name: "TIGER'S EYE PHONE GRIP", price: "21.99$", imageUrl: "stone.png" },
+    { id: 6, name: "LAPIS LAZULI PHONE GRIP", price: "22.99$", imageUrl: "stone.png" },
+    { id: 7, name: "ONYX PHONE GRIP", price: "23.99$", imageUrl: "stone.png" },
+    { id: 8, name: "JADE PHONE GRIP", price: "24.99$", imageUrl: "stone.png" },
   ];
-
+  
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleProductClick = (product) => {
@@ -17,7 +22,8 @@ const ProductGrid = () => {
 
   return (
     <div className="product-grid-container">
-      <div className="filter-sort">
+      <h1 className="all-products-title">All Products</h1>
+      <div className="filter-sort-container">
         <div className="filter">
           <span>Filter:</span>
           <select>
@@ -43,9 +49,9 @@ const ProductGrid = () => {
             className={`product-card ${selectedProduct === product.id ? "selected" : ""}`}
             onClick={() => handleProductClick(product)}
           >
-            <img src={product.imageUrl} alt={product.name} className="product-image" />
-            <h3>{product.name}</h3>
-            <p>{product.price}</p>
+            <img src={product.imageUrl} alt={product.name} className="stone-jewelry" />
+            <h3 className="product-name">{product.name}</h3>
+            <p className="product-price">{product.price}</p>
             <button className="buy-now-button">BUY NOW</button>
           </div>
         ))}

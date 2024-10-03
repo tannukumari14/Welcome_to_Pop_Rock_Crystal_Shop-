@@ -25,7 +25,7 @@ const ProductDetail = () => {
 
         <div className="right-side">
           <div className="product-image-container">
-            <img src="path_to_product_image" alt="Agate Phone Grip" className="product-image" />
+            <img src="stone.png" className="product-image" />
           </div>
         </div>
       </div>
